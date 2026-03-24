@@ -108,7 +108,7 @@
       addMessage(message, 'user');
 
       // Call backend
-      const response = await fetch('https://9vvtq80jik.execute-api.us-east-1.amazonaws.com/dev/chat', {
+      const response = await fetch('https://xyz-xyz.execute-api.us-east-1.amazonaws.com/dev/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message, history })
